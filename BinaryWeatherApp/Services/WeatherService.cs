@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace BinaryWeatherApp.Services
 {
-	public class WeatherService
+	public class WeatherService : IWeatherService
 	{
 		private string api = "03b4475836684e7572334999a38a5fbf";
 

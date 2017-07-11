@@ -5,12 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Ninject;
 
 namespace BinaryWeatherApp.Controllers
 {
 	public class WeatherController : Controller
 	{
-		private Forecast forecast;
+		IWeatherService WeatherService;
+		public WeatherController(IWeatherService iws)
+		{
+			WeatherService = iws;
+		}
 		public ActionResult Index()
 		{
 			return View();
@@ -21,8 +26,7 @@ namespace BinaryWeatherApp.Controllers
 		{
 			if (!string.IsNullOrWhiteSpace(city))
 			{
-				WeatherService service = new WeatherService();
-				forecast = service.Get(city, days);
+				Forecast forecast = WeatherService.Get(city, days);
 
 				return View(forecast);
 			}
