@@ -1,6 +1,7 @@
 ﻿@model BinaryWeatherApp.Models.Forecast
 @{
 	ViewBag.Title = "Weather";
+	//ViewBag.Towns = BinaryWeatherApp.Models.Town
 }
 <!DOCTYPE html>
 <html>
@@ -9,22 +10,29 @@
 
 </head>
 <body align="center">
-	<br />
+	<p align="center" ><h4> @Html.ActionLink("Favorite cities", "Index", "Towns") &emsp;&emsp; @Html.ActionLink("Requests", "Index", "Requests")</h4></p>
+	<hr />
+	<br /> <br />
+
+	
 	@using (Html.BeginForm("Index", "Weather", FormMethod.Post))
 	{
 
-		<p>
-			@Html.RadioButton("city", "Dnipropetrovsk") Dnipro&emsp;&emsp;
-			@Html.RadioButton("city", "Kharkiv") Kharkiv&emsp;&emsp;
-			@Html.RadioButton("city", "Kiev") Kiev&emsp;&emsp;
-			@Html.RadioButton("city", "Lviv") Lviv&emsp;&emsp;
-			@Html.RadioButton("city", "Odessa") Odessa
-		</p>
+		var towns = new List<SelectListItem>();
+		if (ViewBag.Towns != null)
+		{
+			foreach (BinaryWeatherApp.Models.Town x in ViewBag.Towns)
+			{
+				towns.Add(new SelectListItem() { Text = x.TownName, Value = x.TownName });
+			}
+		}
+		<p>@Html.DropDownList("CityName", towns, new { @class = "btn btn-default dropdown-toggle" })@Html.RadioButton("city", "", true) Favorites </p>
+		
+		<br/>
 		<p>
 			@Html.TextBox("city") @Html.RadioButton("city", "", false) Other City
 			
 		</p>
-
 		<p>
 			You want a forecast for
 			@Html.DropDownList("days", new List<SelectListItem>
@@ -34,6 +42,7 @@
 		</p>
 		<input type="submit" value="Get!" />
 	}
+	<hr />
 	@Html.Partial("Result", Model)
 </body>
 </html>

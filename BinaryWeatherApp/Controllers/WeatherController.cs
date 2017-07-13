@@ -6,15 +6,24 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Ninject;
+using BinaryWeatherApp.Repositories;
 
 namespace BinaryWeatherApp.Controllers
 {
 	public class WeatherController : Controller
 	{
-		IWeatherService WeatherService;
-		public WeatherController(IWeatherService iws)
+		IWeatherService weatherService;
+		ITownsRepository townsRepository;
+		IRequestRepository requestRepository;
+
+		public WeatherController(IWeatherService iws, ITownsRepository itr, IRequestRepository irr)
 		{
-			WeatherService = iws;
+			weatherService = iws;
+			townsRepository = itr;
+			requestRepository = irr;
+			var towns = townsRepository.GetAll();
+
+			ViewBag.Towns = towns;
 		}
 		public ActionResult Index()
 		{
@@ -26,8 +35,16 @@ namespace BinaryWeatherApp.Controllers
 		{
 			if (!string.IsNullOrWhiteSpace(city))
 			{
-				Forecast forecast = WeatherService.Get(city, days);
-
+				Forecast forecast = weatherService.Get(city, days);
+				Request request = new Request
+				{
+					RequestTown = forecast.city,
+					RequestDays = days,
+					RequestDate = forecast.GetDailyList()[0].date,
+					RequestImg = forecast.GetDailyList()[0].icon,
+					RequestTemp = forecast.GetDailyList()[0].day 
+				};
+				requestRepository.Create(request);
 				return View(forecast);
 			}
 			return View();

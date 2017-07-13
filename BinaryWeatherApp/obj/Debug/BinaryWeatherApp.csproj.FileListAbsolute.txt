@@ -153,3 +153,17 @@ C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherAp
 C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\WebActivatorEx.dll
 C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.Web.Common.xml
 C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.Web.Mvc.xml
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.dll
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.dll
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Common.dll
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Mvc.dll
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\WebActivatorEx.dll
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.xml
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.xml
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Common.xml
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Mvc.xml
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.Migrations.InitialCreate.resources
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.csproj.GenerateResource.Cache
+C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.Migrations.MigrateDB.resources
