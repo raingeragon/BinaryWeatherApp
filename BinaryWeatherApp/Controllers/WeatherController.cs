@@ -13,15 +13,14 @@ namespace BinaryWeatherApp.Controllers
 	public class WeatherController : Controller
 	{
 		IWeatherService weatherService;
-		ITownsRepository townsRepository;
-		IRequestRepository requestRepository;
+		IUnitOfWork unitOfWork;
+		
 
-		public WeatherController(IWeatherService iws, ITownsRepository itr, IRequestRepository irr)
+		public WeatherController(IWeatherService iws, IUnitOfWork iuow)
 		{
 			weatherService = iws;
-			townsRepository = itr;
-			requestRepository = irr;
-			var towns = townsRepository.GetAll();
+			unitOfWork = iuow;
+			var towns = unitOfWork.Towns.GetAll();
 
 			ViewBag.Towns = towns;
 		}
@@ -44,7 +43,7 @@ namespace BinaryWeatherApp.Controllers
 					RequestImg = forecast.GetDailyList()[0].icon,
 					RequestTemp = forecast.GetDailyList()[0].day 
 				};
-				requestRepository.Create(request);
+				unitOfWork.Requests.Create(request);
 				return View(forecast);
 			}
 			return View();

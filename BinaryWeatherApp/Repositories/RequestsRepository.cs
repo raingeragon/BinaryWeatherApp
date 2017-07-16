@@ -8,7 +8,7 @@ using System.Web;
 
 namespace BinaryWeatherApp.Repositories
 {
-	public class RequestsRepository : IRequestRepository
+	public class RequestsRepository : IRepository<Request>
 	{
 		private WeatherContext db;
 		private bool dispose = false;

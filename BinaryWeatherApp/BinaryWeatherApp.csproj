@@ -185,8 +185,10 @@
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\IRequestsRepository.cs" />
     <Compile Include="Repositories\ITownsRepository.cs" />
+    <Compile Include="Repositories\UoW\IUnitOfWork.cs" />
     <Compile Include="Repositories\RequestsRepository.cs" />
     <Compile Include="Repositories\TownsRepository.cs" />
+    <Compile Include="Repositories\UoW\UnitOfWork.cs" />
     <Compile Include="Services\IWeatherService.cs" />
     <Compile Include="Services\WeatherService.cs" />
   </ItemGroup>

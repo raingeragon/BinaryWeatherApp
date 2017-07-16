@@ -9,14 +9,14 @@ namespace BinaryWeatherApp.Controllers
 {
 	public class RequestsController : Controller
 	{
-		IRequestRepository requestRepository;
-		public RequestsController(IRequestRepository irr)
+		IUnitOfWork unitOfWork;
+		public RequestsController(IUnitOfWork iuow)
 		{
-			requestRepository = irr;
+			unitOfWork = iuow;
 		}
 		public ActionResult Index()
 		{
-			var requests = requestRepository.GetAll();
+			var requests = unitOfWork.Towns.GetAll();
 			return View(requests);
 		}
 	}

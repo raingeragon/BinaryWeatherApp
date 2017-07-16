@@ -9,7 +9,7 @@ namespace BinaryWeatherApp.Entities
 {
 	public class WeatherContext : DbContext
 	{
-		public WeatherContext() : base ("DefaultConnection")
+		public WeatherContext(string connectionString) : base (connectionString)
 		{
 
 		}

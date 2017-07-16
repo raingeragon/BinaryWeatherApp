@@ -10,14 +10,14 @@ namespace BinaryWeatherApp.Controllers
 {
 	public class TownsController : Controller
 	{
-		ITownsRepository townsRepository;
-		public TownsController(ITownsRepository itr)
+		IUnitOfWork unitOfWork;
+		public TownsController(IUnitOfWork itr)
 		{
-			townsRepository = itr;
+			unitOfWork = itr;
 		}
 		public ActionResult Index()
 		{
-			var towns = townsRepository.GetAll();
+			var towns = unitOfWork.Towns.GetAll();
 			return View(towns);
 		}
 		[HttpGet]
@@ -29,7 +29,7 @@ namespace BinaryWeatherApp.Controllers
 		[HttpGet]
 		public ActionResult Edit (int id)
 		{
-			var town = townsRepository.GetById(id);
+			var town = unitOfWork.Towns.GetById(id);
 			return View(town);
 		}
 
@@ -42,7 +42,7 @@ namespace BinaryWeatherApp.Controllers
 				{
 					TownName = item.TownName
 				};
-				townsRepository.Create(town);
+				unitOfWork.Towns.Create(town);
 				return RedirectToAction("Index");
 			}
 			else
@@ -56,7 +56,7 @@ namespace BinaryWeatherApp.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				townsRepository.Edit(item);
+				unitOfWork.Towns.Edit(item);
 				return RedirectToAction("Index");
 			}
 			else
@@ -66,7 +66,7 @@ namespace BinaryWeatherApp.Controllers
 		}
 		public ActionResult Delete(int id)
 		{
-			townsRepository.Delete(id);
+			unitOfWork.Towns.Delete(id);
 			return RedirectToAction("Index");
 		}
 	}
