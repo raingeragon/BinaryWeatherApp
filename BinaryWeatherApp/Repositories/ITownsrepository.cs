@@ -14,5 +14,6 @@ namespace BinaryWeatherApp.Repositories
 		void Delete(int id);
 		void Edit(Town item);
 		void Save();
+		void DeleteAll();
 	}
 }

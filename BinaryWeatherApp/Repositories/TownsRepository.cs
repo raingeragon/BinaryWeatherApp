@@ -42,6 +42,11 @@ namespace BinaryWeatherApp.Repositories
 				db.Towns.Remove(item);
 			Save();
 		}
+		public void DeleteAll()
+		{
+			db.Towns.RemoveRange(db.Towns);
+			Save();
+		}
 		public void Save()
 		{
 			db.SaveChanges();

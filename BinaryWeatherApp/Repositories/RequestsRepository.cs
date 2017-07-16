@@ -42,6 +42,11 @@ namespace BinaryWeatherApp.Repositories
 			db.Entry(item).State = EntityState.Modified;
 			Save();
 		}
+		public void DeleteAll()
+		{
+			db.Towns.RemoveRange(db.Towns);
+			db.SaveChanges();
+		}
 		public void Save()
 		{
 			db.SaveChanges();

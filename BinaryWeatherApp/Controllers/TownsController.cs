@@ -8,8 +8,8 @@ using BinaryWeatherApp.Models;
 
 namespace BinaryWeatherApp.Controllers
 {
-    public class TownsController : Controller
-    {
+	public class TownsController : Controller
+	{
 		ITownsRepository townsRepository;
 		public TownsController(ITownsRepository itr)
 		{
@@ -69,5 +69,5 @@ namespace BinaryWeatherApp.Controllers
 			townsRepository.Delete(id);
 			return RedirectToAction("Index");
 		}
-    }
+	}
 }
