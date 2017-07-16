@@ -183,8 +183,6 @@
     <Compile Include="NinjectDependencyResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />
-    <Compile Include="Repositories\IRequestsRepository.cs" />
-    <Compile Include="Repositories\ITownsRepository.cs" />
     <Compile Include="Repositories\UoW\IUnitOfWork.cs" />
     <Compile Include="Repositories\RequestsRepository.cs" />
     <Compile Include="Repositories\TownsRepository.cs" />

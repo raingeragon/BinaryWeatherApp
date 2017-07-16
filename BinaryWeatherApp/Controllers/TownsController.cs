@@ -36,7 +36,7 @@ namespace BinaryWeatherApp.Controllers
 		[HttpPost]
 		public ActionResult Create(Town item)
 		{
-			if (ModelState.IsValid)
+			if (ModelState.IsValid && !string.IsNullOrWhiteSpace(item.TownName))
 			{
 				Town town = new Town()
 				{
@@ -54,7 +54,7 @@ namespace BinaryWeatherApp.Controllers
 		[HttpPost]
 		public ActionResult Edit(Town item)
 		{
-			if (ModelState.IsValid)
+			if (ModelState.IsValid && !string.IsNullOrWhiteSpace(item.TownName))
 			{
 				unitOfWork.Towns.Edit(item);
 				return RedirectToAction("Index");

@@ -16,7 +16,7 @@ namespace BinaryWeatherApp.Controllers
 		}
 		public ActionResult Index()
 		{
-			var requests = unitOfWork.Towns.GetAll();
+			var requests = unitOfWork.Requests.GetAll();
 			return View(requests);
 		}
 	}

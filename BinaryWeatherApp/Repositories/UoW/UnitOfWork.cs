@@ -18,6 +18,11 @@ namespace BinaryWeatherApp.Repositories
 			db = new WeatherContext(connectionString);
 
 		}
+		public UnitOfWork()
+		{
+			db = new WeatherContext("WeatherContext");
+
+		}
 
 		public IRepository<Request> Requests
 		{

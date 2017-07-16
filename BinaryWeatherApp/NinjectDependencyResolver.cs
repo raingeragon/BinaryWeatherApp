@@ -27,8 +27,6 @@ namespace BinaryWeatherApp
 		private void AddBindings()
 		{
 			kernel.Bind<IWeatherService>().To<WeatherService>();
-			//kernel.Bind<ITownsRepository>().To<TownsRepository>();
-			//kernel.Bind<IRequestRepository>().To<RequestsRepository>();
 			kernel.Bind<IUnitOfWork>().To<UnitOfWork>();
 
 		}
