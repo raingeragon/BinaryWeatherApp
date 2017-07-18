@@ -73,10 +73,12 @@ namespace BinaryWeatherApp.Models
 	}
 	public class Forecast
 	{
-		List<DailyForecast> forecast = new List<DailyForecast>();
+		public List<DailyForecast> forecast { get; private set; }
 		public string city { get; private set; }
+
 		public Forecast(RootObject obj)
 		{
+			forecast = new List<DailyForecast>();
 			city = obj.city.name;
 			int i = 0;
 			foreach (var x in obj.list)
