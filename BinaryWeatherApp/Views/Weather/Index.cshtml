@@ -9,8 +9,8 @@
 	<meta name="viewport" content="width=device-width" />
 
 </head>
+
 <body align="center">
-	<div class="main_style">
 		@using (Html.BeginForm("Index", "Weather", FormMethod.Post))
 		{
 
@@ -24,7 +24,7 @@
 			}
 			<p>@Html.DropDownList("city", towns, new { @class = "btn btn-default dropdown-toggle" }) @Html.RadioButton("city", "")  Favorites </p>
 			<p>
-				@Html.TextBox("city") @Html.RadioButton("city", "", false) Other City
+				@Html.TextBox("city", new { @class = "form-control" }) @Html.RadioButton("city", "", false) Other City
 
 			</p>
 			<br />
@@ -34,11 +34,10 @@
 				@Html.DropDownList("days", new List<SelectListItem>
 	  { new SelectListItem{ Text = "1 Day", Value = "1"},
 	  new SelectListItem{ Text = "3 Days", Value = "3"},
-	  new SelectListItem{ Text = "7 Days", Value = "7"}})
+	  new SelectListItem{ Text = "7 Days", Value = "7"}}, new { @class = "btn btn-default dropdown-toggle" })
 			</p>
 			<input type="submit" value="Get" />
 		}
 		@Html.Partial("Result", Model)
-	</div>
 </body>
 </html>
