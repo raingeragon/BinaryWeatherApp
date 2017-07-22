@@ -1,4 +1,5 @@
-﻿using BinaryWeatherApp.Repositories;
+﻿using BinaryWeatherApp.Models;
+using BinaryWeatherApp.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace BinaryWeatherApp.Controllers
 		}
 		public ActionResult Index()
 		{
-			var requests = unitOfWork.Requests.GetAll();
+			var requests = unitOfWork.Requests.GetAll().OrderByDescending(x => x.RequestId).Take(10).ToList<Request>();
 			return View(requests);
 		}
 	}

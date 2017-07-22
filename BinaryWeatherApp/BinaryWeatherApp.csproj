@@ -240,6 +240,11 @@
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CustomStyle.css" />
+    <Content Include="Content\Icons\home-icon.png" />
+    <Content Include="Content\Icons\requests-icon.png" />
+    <Content Include="Content\Icons\town-icon.png" />
+    <Content Include="Content\Icons\weather-icon.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

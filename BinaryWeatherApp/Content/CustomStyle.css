@@ -1,0 +1,58 @@
+﻿
+.header_container {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	height: 75px;
+	align-items: center;
+	margin-top: -50px;
+	margin-bottom: -20px;
+	background: #75D2EF;
+	font-weight:600;
+}
+img{
+
+}
+
+.header_links {
+	display: flex;
+	/*align-items:flex-end;*/
+	justify-content: flex-end;
+}
+
+.header_home_link {
+	color: #6291EF;
+	padding: 15px;
+}
+
+.header_link {
+	padding: 15px;
+	font-size: 18px;
+}
+.header_link::after{
+	content:attr(data-content);
+}
+.footer {
+	margin-top: -20px;
+	font-size: 13px;
+	display: flex;
+	justify-content: space-around;
+	background: #75D2EF;
+	height:100vh;
+}
+
+.footer_elem {
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: large;
+	color: /*#3329A1*/ #4F4B79;
+	align-content: center;
+}
+/*.footer:after {
+	content: "©  " attr(data-date) " Copyright message";
+	margin-top: 0px;
+	margin-bottom: -20px;
+	background: #75D2EF;
+	font-weight: 600;
+	color:darkblue;
+}*/
