@@ -10,7 +10,7 @@
 
 </head>
 <body align="center">
-	<main>
+	<div class="main_style">
 		@using (Html.BeginForm("Index", "Weather", FormMethod.Post))
 		{
 
@@ -39,6 +39,6 @@
 			<input type="submit" value="Get" />
 		}
 		@Html.Partial("Result", Model)
-	</main>
+	</div>
 </body>
 </html>

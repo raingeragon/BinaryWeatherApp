@@ -1,6 +1,8 @@
 ﻿
 .header_container {
 	display: flex;
+	position:fixed;
+	width:100%;
 	justify-content: space-between;
 	font-size: 20px;
 	height: 75px;
@@ -12,15 +14,16 @@
 }
 .body_style {
 	display: flex;
-	flex-direction:column;
+	flex-direction: column;
 	min-height: 100vh;
-	font-family: Lucida Console;	
+	font-family: Lucida Console;
+	align-items: center;
 }
-main{
+.main_style{
+	width:100%;
 	flex: 1;
 }
 .header_links {
-	display: flex;
 	/*align-items:flex-end;*/
 	justify-content: flex-end;
 }
@@ -39,11 +42,11 @@ main{
 }
 .footer {
 	display: flex;
-	margin-top: -20px;
+	width:100%;
 	font-size: 13px;
 	justify-content: space-around;
 	background: #75D2EF;
-	flex: 1;
+	margin-bottom:-18px;
 }
 
 .footer_elem {
