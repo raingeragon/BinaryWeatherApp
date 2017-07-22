@@ -10,10 +10,15 @@
 	background: #75D2EF;
 	font-weight:600;
 }
-img{
-
+.body_style {
+	display: flex;
+	flex-direction:column;
+	min-height: 100vh;
+	font-family: Lucida Console;	
 }
-
+main{
+	flex: 1;
+}
 .header_links {
 	display: flex;
 	/*align-items:flex-end;*/
@@ -33,12 +38,12 @@ img{
 	content:attr(data-content);
 }
 .footer {
+	display: flex;
 	margin-top: -20px;
 	font-size: 13px;
-	display: flex;
 	justify-content: space-around;
 	background: #75D2EF;
-	height:100vh;
+	flex: 1;
 }
 
 .footer_elem {
@@ -48,11 +53,6 @@ img{
 	color: /*#3329A1*/ #4F4B79;
 	align-content: center;
 }
-/*.footer:after {
-	content: "©  " attr(data-date) " Copyright message";
-	margin-top: 0px;
-	margin-bottom: -20px;
-	background: #75D2EF;
-	font-weight: 600;
-	color:darkblue;
-}*/
+.table_item{
+	padding:5px;
+}
