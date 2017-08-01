@@ -24,7 +24,7 @@
 			}
 			<p>@Html.DropDownList("city", towns, new { @class = "btn btn-default dropdown-toggle" }) @Html.RadioButton("city", "")  Favorites </p>
 			<p>
-				@Html.TextBox("city", new { @class = "form-control" }) @Html.RadioButton("city", "", false) Other City
+				@Html.TextBox("city"@*, new { @class = "form-control" }*@) @Html.RadioButton("city", "", false) Other City
 
 			</p>
 			<br />
