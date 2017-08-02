@@ -11,8 +11,8 @@
     <RootPropertyPathName Name="TownsVWInstance" />
     <RootPropertyPathName Name="Towns" />
     <RootPropertyPathName Name="townDel" />
-    <RootPropertyPathName Name="DeleteCommand" />
     <RootPropertyPathName Name="TownName" />
+    <RootPropertyPathName Name="DeleteCommand" />
     <RootPropertyPathName Name="AddCommand" />
     <RootPropertyPathName Name="townAdd" />
     <RootPropertyPathName Name="WeatherVMInstance" />

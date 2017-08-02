@@ -1,6 +1,7 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using UWPBinaryWeatherAppClient.Models;
 using UWPBinaryWeatherAppClient.Services;
@@ -20,7 +21,7 @@ namespace UWPBinaryWeatherAppClient.ViewModels
             Towns = new ObservableCollection<TownsModel>();
             Update();
             AddCommand = new RelayCommand(Add);
-            DeleteCommand = new RelayCommand(Delete);
+            DeleteCommand = new RelayCommand(async()=> { await Delete(); });
         }
 
         void Update()
@@ -36,9 +37,9 @@ namespace UWPBinaryWeatherAppClient.ViewModels
             townsService.Add(townAdd);
             Update();
         }
-        void Delete()
+        async Task Delete()
         {
-            townsService.Delete(townDel.TownName);
+           await townsService.Delete(townDel.TownName);
             Update();
         }
     }

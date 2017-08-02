@@ -29,10 +29,13 @@
         <Button Content="Add"
                 Grid.Column="2"
                 Grid.Row="0"
-                Margin="10,0,10,0"
+                Margin="5,0,5,0"
                 Command="{Binding AddCommand}"
                 HorizontalAlignment="Stretch"/>
-        
+        <Button Content="X"
+                Margin="10,0,10,0"
+                Command="{Binding DeleteCommand}"
+                HorizontalAlignment="Center"/>
         <ListView Grid.ColumnSpan="4" Grid.Row="1" ItemsSource="{Binding Towns}" SelectedItem="{Binding townDel, Mode=TwoWay}">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -41,10 +44,7 @@
                     Text="{Binding TownName}"
                     TextAlignment="Center"
                     />
-              <Button Content="X"
-                Margin="10,0,10,0"
-                Command="{Binding DeleteCommand}"
-                HorizontalAlignment="Center"/>
+              
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
