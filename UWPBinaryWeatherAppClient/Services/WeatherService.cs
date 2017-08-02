@@ -15,7 +15,7 @@ namespace UWPBinaryWeatherAppClient.Services
         private HttpClient client;
         public WeatherService()
         {
-            apiPath = "http://localhost:59524:api/";
+            apiPath = "http://localhost:59524/api/";
             client = new HttpClient();
         }
         public async Task<WeatherModel> GetForecast(string city, int days)

@@ -15,7 +15,7 @@ namespace UWPBinaryWeatherAppClient.Services
         private HttpClient client;
         public TownsService()
         {
-            apiPath = "http://localhost:59524:api/";
+            apiPath = "http://localhost:59524/api/";
             client = new HttpClient();
         }
 

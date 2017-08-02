@@ -24150,10 +24150,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Хоменко Илья\\documents\\visual studio 2017\\Projects\\BinaryWeatherApp\\UWPBinaryWeatherAppClient\\UWPBinaryWeatherAppClient.csproj",
+      "projectUniqueName": "C:\\Users\\Хоменко Илья\\Desktop\\Binary-master\\UWPBinaryWeatherAppClient\\UWPBinaryWeatherAppClient.csproj",
       "projectName": "UWPBinaryWeatherAppClient",
-      "projectPath": "C:\\Users\\Хоменко Илья\\documents\\visual studio 2017\\Projects\\BinaryWeatherApp\\UWPBinaryWeatherAppClient\\UWPBinaryWeatherAppClient.csproj",
-      "projectJsonPath": "C:\\Users\\Хоменко Илья\\documents\\visual studio 2017\\Projects\\BinaryWeatherApp\\UWPBinaryWeatherAppClient\\project.json",
+      "projectPath": "C:\\Users\\Хоменко Илья\\Desktop\\Binary-master\\UWPBinaryWeatherAppClient\\UWPBinaryWeatherAppClient.csproj",
+      "projectJsonPath": "C:\\Users\\Хоменко Илья\\Desktop\\Binary-master\\UWPBinaryWeatherAppClient\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

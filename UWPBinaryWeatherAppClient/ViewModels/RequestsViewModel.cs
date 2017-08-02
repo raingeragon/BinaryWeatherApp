@@ -7,17 +7,29 @@ using System.Threading.Tasks;
 using UWPBinaryWeatherAppClient.Models;
 using UWPBinaryWeatherAppClient.Services;
 using System.Windows.Input;
+using System.Collections.ObjectModel;
 
 namespace UWPBinaryWeatherAppClient.ViewModels
 {
     public class RequestsViewModel : ViewModelBase
     {
-        public List<RequestsModel> Requests { get; set; }
+        public ObservableCollection<RequestsModel> Requests { get; set; }
+
         public RequestsViewModel()
         {
+            Requests = new ObservableCollection<RequestsModel>();
+            Reload();
+            MessengerInstance.Register<WeatherModel>(this, list => { Reload(); });
+        }
+        public void Reload()
+        {
             var service = new RequestsService();
-            Requests = service.Get().ToList();
-            Requests.Reverse();
+            Requests.Clear();
+            var list = service.Get().ToList();
+            list.Reverse();
+
+            foreach (var x in list)
+                Requests.Add(x);
         }
     }
 }

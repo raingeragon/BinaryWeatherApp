@@ -8,6 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Frame Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch" x:Name="Frame"/>
+        <CommandBar Background="#FF45BBFF" Height="69" Grid.RowSpan="2">
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton  Label="Weather" Click="WeatherNavigate"  Icon="World"/>
+            <AppBarButton Icon="Favorite" Label="Favorite Towns" Click="TownsNavigate"/>
+            <AppBarButton Icon="List" Label="Requests history" Click="RequestsNavigate"/>
+        </CommandBar>
     </Grid>
 </Page>

@@ -111,6 +111,15 @@
     <Compile Include="ViewModels\RequestsViewModel.cs" />
     <Compile Include="ViewModels\TownsViewModel.cs" />
     <Compile Include="ViewModels\WeatherViewModel.cs" />
+    <Compile Include="Views\RequestsView.xaml.cs">
+      <DependentUpon>RequestsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TownsView.xaml.cs">
+      <DependentUpon>TownsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WeatherView.xaml.cs">
+      <DependentUpon>WeatherView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -137,17 +146,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\MainView.xaml">
+    <Page Include="Views\RequestsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\TownsView.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\RequestsView.xaml">
       <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\WeatherView.xaml">
       <SubType>Designer</SubType>

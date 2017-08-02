@@ -132,7 +132,7 @@ namespace UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "UWPBinaryWeatherAppClient.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "UWPBinaryWeatherAppClient.ViewModels.RequestsViewModel";
@@ -143,9 +143,11 @@ namespace UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo
             _typeNameTable[7] = "UWPBinaryWeatherAppClient.MainPage";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[9] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[10] = "UWPBinaryWeatherAppClient.MainView";
+            _typeNameTable[10] = "UWPBinaryWeatherAppClient.Views.RequestsView";
+            _typeNameTable[11] = "UWPBinaryWeatherAppClient.Views.TownsView";
+            _typeNameTable[12] = "UWPBinaryWeatherAppClient.Views.WeatherView";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::UWPBinaryWeatherAppClient.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::UWPBinaryWeatherAppClient.ViewModels.RequestsViewModel);
@@ -156,7 +158,9 @@ namespace UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo
             _typeTable[7] = typeof(global::UWPBinaryWeatherAppClient.MainPage);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[10] = typeof(global::UWPBinaryWeatherAppClient.MainView);
+            _typeTable[10] = typeof(global::UWPBinaryWeatherAppClient.Views.RequestsView);
+            _typeTable[11] = typeof(global::UWPBinaryWeatherAppClient.Views.TownsView);
+            _typeTable[12] = typeof(global::UWPBinaryWeatherAppClient.Views.WeatherView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -197,7 +201,9 @@ namespace UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo
         private object Activate_5_WeatherViewModel() { return new global::UWPBinaryWeatherAppClient.ViewModels.WeatherViewModel(); }
         private object Activate_6_TownsViewModel() { return new global::UWPBinaryWeatherAppClient.ViewModels.TownsViewModel(); }
         private object Activate_7_MainPage() { return new global::UWPBinaryWeatherAppClient.MainPage(); }
-        private object Activate_10_MainView() { return new global::UWPBinaryWeatherAppClient.MainView(); }
+        private object Activate_10_RequestsView() { return new global::UWPBinaryWeatherAppClient.Views.RequestsView(); }
+        private object Activate_11_TownsView() { return new global::UWPBinaryWeatherAppClient.Views.TownsView(); }
+        private object Activate_12_WeatherView() { return new global::UWPBinaryWeatherAppClient.Views.WeatherView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -270,9 +276,23 @@ namespace UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo
                 xamlType = new global::UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  UWPBinaryWeatherAppClient.MainView
+            case 10:   //  UWPBinaryWeatherAppClient.Views.RequestsView
                 userType = new global::UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_MainView;
+                userType.Activator = Activate_10_RequestsView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  UWPBinaryWeatherAppClient.Views.TownsView
+                userType = new global::UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_TownsView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  UWPBinaryWeatherAppClient.Views.WeatherView
+                userType = new global::UWPBinaryWeatherAppClient.UWPBinaryWeatherAppClient_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_WeatherView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

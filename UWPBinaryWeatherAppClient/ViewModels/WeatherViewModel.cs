@@ -2,6 +2,7 @@
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,30 +16,33 @@ namespace UWPBinaryWeatherAppClient.ViewModels
     {
         public WeatherModel Forecast { get; set; }
         public ICommand ForecastCommand { get; set; }
-        public List<string> Towns { get; private set; }
+        public ObservableCollection<string> Towns { get; private set; }
+        public string city { get; set; }
+        public int days { get; set; }
 
-        public string city;
-        public int days;
-
-        public WeatherViewModel ()
+        public WeatherViewModel()
         {
             ForecastCommand = new RelayCommand(GetForecast);
+            Towns = new ObservableCollection<string>();
             Forecast = new WeatherModel();
+            MessengerInstance.Register<ObservableCollection<TownsModel>>(this, list => { Reload(); });
+            Reload();
+
+        }
+        void Reload()
+        {
+            Towns.Clear();
             var townsService = new TownsService();
             var townsList = townsService.Get();
             foreach (var n in townsList)
                 Towns.Add(n.TownName);
-
-        }
-        private void Search()
-        {
-
         }
         public async void GetForecast()
         {
             var service = new WeatherService();
             Forecast = await service.GetForecast(city, days);
             RaisePropertyChanged(() => Forecast);
+            MessengerInstance.Send(new WeatherModel());
         }
     }
 }

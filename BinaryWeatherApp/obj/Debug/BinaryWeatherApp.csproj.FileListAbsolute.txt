@@ -1,200 +1,119 @@
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.csprojResolveAssemblyReference.cache
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ApplicationInsights.config
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\csc.exe
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\csc.exe.config
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\csc.rsp
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\csi.exe
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\csi.rsp
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.CSharp.Core.targets
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\System.AppContext.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\System.Collections.Immutable.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\System.Diagnostics.StackTrace.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\System.IO.FileSystem.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\System.Reflection.Metadata.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\vbc.exe
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\vbc.exe.config
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\vbc.rsp
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\VBCSCompiler.exe
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\roslyn\VBCSCompiler.exe.config
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\BinaryWeatherApp.dll.config
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\BinaryWeatherApp.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\BinaryWeatherApp.pdb
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Antlr3.Runtime.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.Agent.Intercept.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.DependencyCollector.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.PerfCounterCollector.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.Web.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.WindowsServer.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.ApplicationInsights.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.Web.Infrastructure.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Newtonsoft.Json.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Helpers.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Mvc.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Optimization.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Razor.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.WebPages.Deployment.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.WebPages.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.WebPages.Razor.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\WebGrease.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Helpers.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Mvc.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Optimization.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Razor.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.WebPages.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.WebPages.Deployment.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.WebPages.Razor.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Antlr3.Runtime.pdb
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Newtonsoft.Json.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.ApplicationInsights.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.DependencyCollector.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.WindowsServer.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Microsoft.AI.Web.xml
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.Helpers.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.Mvc.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.Optimization.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.Razor.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.WebPages.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ru\System.Web.WebPages.Razor.resources.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.dll
-c:\users\хоменко илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.pdb
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ApplicationInsights.config
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\csc.exe
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\csc.exe.config
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\csc.rsp
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\csi.exe
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\csi.rsp
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\System.AppContext.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\vbc.exe
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\vbc.exe.config
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\vbc.rsp
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\VBCSCompiler.exe
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\BinaryWeatherApp.dll.config
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\BinaryWeatherApp.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\BinaryWeatherApp.pdb
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Antlr3.Runtime.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.Web.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Newtonsoft.Json.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Helpers.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Mvc.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Optimization.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Razor.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.WebPages.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.WebPages.Razor.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\WebGrease.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Helpers.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Mvc.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Optimization.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.Razor.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.WebPages.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\System.Web.WebPages.Razor.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Antlr3.Runtime.pdb
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Newtonsoft.Json.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Microsoft.AI.Web.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.Helpers.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.Mvc.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.Optimization.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.Razor.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.WebPages.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\ru\System.Web.WebPages.Razor.resources.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.csprojResolveAssemblyReference.cache
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.pdb
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.Web.Common.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.Web.Mvc.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\WebActivatorEx.dll
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.Web.Common.xml
-C:\Users\Хоменко Илья\Desktop\BinaryWeatherApp-master\BinaryWeatherApp\bin\Ninject.Web.Mvc.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.SqlServer.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Common.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Mvc.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\WebActivatorEx.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\EntityFramework.SqlServer.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Common.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\Ninject.Web.Mvc.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.Migrations.InitialCreate.resources
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.csproj.GenerateResource.Cache
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.Migrations.MigrateDB.resources
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Net.Http.Formatting.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Http.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Http.WebHost.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Net.Http.Formatting.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Http.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\System.Web.Http.WebHost.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Api.Postman.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Common.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Interfaces.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.OrmLite.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.OrmLite.SqlServer.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Razor.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Redis.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.ServiceInterface.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Text.dll
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Common.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Common.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Interfaces.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Interfaces.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.OrmLite.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.OrmLite.SqlServer.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Razor.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Razor.dll.config
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Redis.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Redis.xml
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.ServiceInterface.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Text.pdb
-C:\Users\Хоменко Илья\documents\visual studio 2017\Projects\BinaryWeatherApp\BinaryWeatherApp\bin\ServiceStack.Text.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ApplicationInsights.config
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\csc.exe
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\csc.exe.config
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\csc.rsp
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\csi.exe
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\csi.rsp
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\System.AppContext.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\vbc.exe
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\vbc.exe.config
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\vbc.rsp
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\BinaryWeatherApp.dll.config
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\BinaryWeatherApp.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\BinaryWeatherApp.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Antlr3.Runtime.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\EntityFramework.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.Web.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Newtonsoft.Json.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Ninject.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Ninject.Web.Common.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Ninject.Web.Mvc.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Api.Postman.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Common.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Interfaces.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.OrmLite.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Razor.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Redis.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.ServiceInterface.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Text.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Helpers.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Http.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Mvc.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Optimization.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Razor.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.WebPages.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\WebActivatorEx.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\WebGrease.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\EntityFramework.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Ninject.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Ninject.Web.Common.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Ninject.Web.Mvc.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Common.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Common.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Interfaces.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Interfaces.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.OrmLite.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.OrmLite.SqlServer.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Razor.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Razor.dll.config
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Redis.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Redis.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.ServiceInterface.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Text.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ServiceStack.Text.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Http.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Helpers.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Mvc.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Optimization.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.Razor.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.WebPages.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Antlr3.Runtime.pdb
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Newtonsoft.Json.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\Microsoft.AI.Web.xml
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.csprojResolveAssemblyReference.cache
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.Migrations.InitialCreate.resources
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.Migrations.MigrateDB.resources
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.csproj.GenerateResource.Cache
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.dll
+C:\Users\Хоменко Илья\Desktop\Binary-master\BinaryWeatherApp\obj\Debug\BinaryWeatherApp.pdb

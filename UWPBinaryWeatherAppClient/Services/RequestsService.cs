@@ -15,7 +15,7 @@ namespace UWPBinaryWeatherAppClient.Services
         private HttpClient client;
         public RequestsService()
         {
-            ApiPath = "http://localhost:59524:api/";
+            ApiPath = "http://localhost:59524/api/";
             client = new HttpClient();
         }
         public IEnumerable<RequestsModel> Get ()

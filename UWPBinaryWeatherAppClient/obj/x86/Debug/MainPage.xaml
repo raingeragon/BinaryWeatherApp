@@ -8,7 +8,22 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Frame x:ConnectionId='1' Grid.Column="0" Grid.Row="1" VerticalAlignment="Stretch" x:Name="Frame"/>
+        <CommandBar Background="#FF45BBFF" Height="69" Grid.RowSpan="2">
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton x:ConnectionId='2'  Label="Weather"                          Icon="World"/>
+            <AppBarButton x:ConnectionId='3' Icon="Favorite" Label="Favorite Towns"                      />
+            <AppBarButton x:ConnectionId='4' Icon="List" Label="Requests history"                         />
+        </CommandBar>
     </Grid>
 </Page>
 
