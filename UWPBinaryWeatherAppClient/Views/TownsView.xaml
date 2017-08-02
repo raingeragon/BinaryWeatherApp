@@ -32,7 +32,7 @@
                 Margin="5,0,5,0"
                 Command="{Binding AddCommand}"
                 HorizontalAlignment="Stretch"/>
-        <Button Content="X"
+        <Button Content="Delete"
                 Margin="10,0,10,0"
                 Command="{Binding DeleteCommand}"
                 HorizontalAlignment="Center"/>
@@ -44,7 +44,7 @@
                     Text="{Binding TownName}"
                     TextAlignment="Center"
                     />
-              
+                       
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
