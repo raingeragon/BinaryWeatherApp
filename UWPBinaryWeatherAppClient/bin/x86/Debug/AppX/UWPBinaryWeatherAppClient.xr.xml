@@ -1,16 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="HistoryVMInstance" />
+    <RootPropertyPathName Name="Requests" />
+    <RootPropertyPathName Name="RequestDays" />
+    <RootPropertyPathName Name="RequestTemp" />
+    <RootPropertyPathName Name="RequestDate" />
+    <RootPropertyPathName Name="RequestTown" />
+    <RootPropertyPathName Name="RequestImg" />
+    <RootPropertyPathName Name="TownsVWInstance" />
+    <RootPropertyPathName Name="Towns" />
+    <RootPropertyPathName Name="townDel" />
+    <RootPropertyPathName Name="DeleteCommand" />
+    <RootPropertyPathName Name="TownName" />
+    <RootPropertyPathName Name="AddCommand" />
+    <RootPropertyPathName Name="townAdd" />
     <RootPropertyPathName Name="WeatherVMInstance" />
     <RootPropertyPathName Name="Forecast" />
     <RootPropertyPathName Name="humidity" />
     <RootPropertyPathName Name="pressure" />
     <RootPropertyPathName Name="day" />
+    <RootPropertyPathName Name="date" />
     <RootPropertyPathName Name="icon" />
     <RootPropertyPathName Name="ForecastCommand" />
     <RootPropertyPathName Name="days" />
     <RootPropertyPathName Name="city" />
-    <RootPropertyPathName Name="Towns" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -59,57 +73,59 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="UWPBinaryWeatherAppClient.MainPage" />
-    <RootType FullName="UWPBinaryWeatherAppClient.Views.RequestsView" />
-    <RootType FullName="UWPBinaryWeatherAppClient.Views.TownsView" />
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Source" />
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="Name" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="SelectedItem" />
-      <RootEvent Name="SelectionChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Text" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="HorizontalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="MinHeight" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Command" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="SelectedItem" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="TextAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="UWPBinaryWeatherAppClient.Views.RequestsView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="PlaceholderText" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MinHeight" />
+    </RootType>
+    <RootType FullName="UWPBinaryWeatherAppClient.Views.TownsView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="SelectedItem" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="UWPBinaryWeatherAppClient.Views.WeatherView" />
   </Roots.RootTypes>

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using BinaryWeatherApp.Repositories;
 using BinaryWeatherApp.Models;
+using System.Threading.Tasks;
 
 namespace BinaryWeatherApp.Controllers
 {
@@ -15,9 +16,9 @@ namespace BinaryWeatherApp.Controllers
 		{
 			unitOfWork = itr;
 		}
-		public ActionResult Index()
+		public async Task<ActionResult> Index()
 		{
-			var towns = unitOfWork.Towns.GetAll();
+			var towns = await unitOfWork.Towns.GetAllAsync();
 			return View(towns);
 		}
 		[HttpGet]
@@ -27,14 +28,14 @@ namespace BinaryWeatherApp.Controllers
 		}
 
 		[HttpGet]
-		public ActionResult Edit (int id)
+		public async Task<ActionResult> Edit (int id)
 		{
-			var town = unitOfWork.Towns.GetById(id);
+			var town = await unitOfWork.Towns.GetByIdAsync(id);
 			return View(town);
 		}
 
 		[HttpPost]
-		public ActionResult Create(Town item)
+		public async Task<ActionResult> Create(Town item)
 		{
 			if (ModelState.IsValid && !string.IsNullOrWhiteSpace(item.TownName))
 			{
@@ -42,7 +43,7 @@ namespace BinaryWeatherApp.Controllers
 				{
 					TownName = item.TownName
 				};
-				unitOfWork.Towns.Create(town);
+				await unitOfWork.Towns.CreateAsync(town);
 				return RedirectToAction("Index");
 			}
 			else
@@ -52,11 +53,11 @@ namespace BinaryWeatherApp.Controllers
 		}
 		
 		[HttpPost]
-		public ActionResult Edit(Town item)
+		public async Task<ActionResult> Edit(Town item)
 		{
 			if (ModelState.IsValid && !string.IsNullOrWhiteSpace(item.TownName))
 			{
-				unitOfWork.Towns.Edit(item);
+				await unitOfWork.Towns.EditAsync(item);
 				return RedirectToAction("Index");
 			}
 			else
@@ -64,9 +65,9 @@ namespace BinaryWeatherApp.Controllers
 				return View(item);
 			}
 		}
-		public ActionResult Delete(int id)
+		public async Task<ActionResult> Delete(int id)
 		{
-			unitOfWork.Towns.Delete(id);
+			await unitOfWork.Towns.DeleteAsync(id);
 			return RedirectToAction("Index");
 		}
 	}

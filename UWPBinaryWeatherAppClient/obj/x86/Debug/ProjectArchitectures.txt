@@ -1,1 +1,1 @@
-C:\Users\Хоменко Илья\Desktop\Binary-master\UWPBinaryWeatherAppClient\UWPBinaryWeatherAppClient.csproj;x86
+C:\Users\Хоменко Илья\Documents\Visual Studio 2017\Projects\BinaryWeatherApp\UWPBinaryWeatherAppClient\UWPBinaryWeatherAppClient.csproj;x86

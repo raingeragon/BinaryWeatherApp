@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 namespace BinaryWeatherApp.Services
 {
@@ -12,15 +13,20 @@ namespace BinaryWeatherApp.Services
 	{
 		private string api = "03b4475836684e7572334999a38a5fbf";
 
-		public Forecast Get(string city, int days)
+		public async Task<Forecast> Get(string city, int days)
 		{
 			if (!string.IsNullOrWhiteSpace(city))
 			{
 				string url = $"http://api.openweathermap.org/data/2.5/forecast/daily?q={city}&cnt={days}&units=metric&APPID={api}";
 
-				WebClient client = new WebClient();
-				string json = @"" + (client.DownloadString(url)).Replace('"', '\'');
-				Forecast forecast = new Forecast(JsonConvert.DeserializeObject<RootObject>(json));
+                string response;
+
+                using (WebClient client = new WebClient())
+                {
+                    response = await client.DownloadStringTaskAsync(url);
+                }
+                
+				Forecast forecast = new Forecast(JsonConvert.DeserializeObject<RootObject>(response));
 
 				return forecast;
 			}

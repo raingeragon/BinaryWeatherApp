@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 
 namespace BinaryWeatherApp.Repositories
@@ -10,6 +11,6 @@ namespace BinaryWeatherApp.Repositories
 	{
 		IRepository<Request> Requests { get; }
 		IRepository<Town> Towns { get; }
-		void Save();
+		Task Save();
 	}
 }

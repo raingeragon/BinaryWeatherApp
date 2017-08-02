@@ -28,12 +28,12 @@ namespace UWPBinaryWeatherAppClient.Services
 
         public async void Add(string name)
         {
-            await client.PostAsync($"{apiPath}Towns/?city={name}",null);
+            await client.PostAsync($"{apiPath}Towns/?name={name}",null);
         }
 
         public async void Delete(string name)
         {
-            await client.DeleteAsync($"{apiPath}Towns/city={name}");
+            await client.DeleteAsync($"{apiPath}Towns/?name={name}");
         }
     }
 }

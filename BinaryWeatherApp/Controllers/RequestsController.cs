@@ -3,6 +3,7 @@ using BinaryWeatherApp.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -15,9 +16,9 @@ namespace BinaryWeatherApp.Controllers
 		{
 			unitOfWork = iuow;
 		}
-		public ActionResult Index()
+		public async Task<ActionResult> Index()
 		{
-			var requests = unitOfWork.Requests.GetAll().OrderByDescending(x => x.RequestId).Take(10).ToList<Request>();
+			var requests =(await unitOfWork.Requests.GetAllAsync()).OrderByDescending(x => x.RequestId).Take(10).ToList<Request>();
 			return View(requests);
 		}
 	}

@@ -8,7 +8,7 @@
     DataContext="{Binding WeatherVMInstance, Source={StaticResource Locator}}"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,50,0,0">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="5,60,5,5">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -17,41 +17,44 @@
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="0.5*"/>
         </Grid.ColumnDefinitions>
+        
         <ComboBox
             Grid.Row="0"
             Grid.Column="0"
-            MinWidth="80"
-            Margin="20"
+            Margin="10"
             ItemsSource="{Binding Towns}"
             SelectionChanged="TownsSelectionChanged"
             Name="townCombo"
-            HorizontalAlignment="Center"
+            HorizontalAlignment="Stretch"
+            PlaceholderText="Pick"
         />
         <TextBox 
                 x:Name="townText" 
                 Text="{Binding city, Mode=TwoWay}"
                 Grid.Row="0"
                 Grid.Column="1"
-                Margin="20"
-                MinWidth="100"
-                HorizontalAlignment="Center"
+                Margin="10"
+                PlaceholderText="or type here"
+                HorizontalAlignment="Stretch"
         />
+       
         <ComboBox
             MinWidth="80"
             Grid.Row="0"
             Grid.Column="2"
-            Margin="20"
-            HorizontalAlignment="Center"
+            Margin="10"
+            HorizontalAlignment="Stretch"
             Name="days_combo"
+            PlaceholderText="Days"
             SelectedItem="{Binding days, Mode=TwoWay}"
         />
         <Button
             Grid.Row="0"
             Grid.Column="3"
             Content="OK"
-            Margin="20"
+            Margin="10"
             MinWidth="80"
             MinHeight="30"
             HorizontalAlignment="Center"
@@ -70,10 +73,11 @@
                             <RowDefinition Height="24"/>
                         </Grid.RowDefinitions>
 
-                        <Image Source="{Binding icon}" Width="36" Height="36" Grid.RowSpan="2" Grid.Column="0"/>
-                        <TextBlock Text="{Binding day}"
+                        <Image Source="{Binding icon}"  Grid.RowSpan="2" Grid.Column="0"/>
+                        <TextBlock Text="{Binding date}"
                                    Foreground="Black"
                                    FontSize="16"
+                                   FontWeight="ExtraBlack"
                                    Padding="20,0,0,0"
                                    Grid.Column="1"
                                    Grid.Row="0"/>
@@ -81,19 +85,29 @@
                         <StackPanel Orientation="Horizontal"
                                     Grid.Column="1"
                                     Grid.Row="1">
-
+                            <TextBlock Text="{Binding day}"
+                                   FontSize="13"
+                                   FontWeight="Black"
+                                   Padding="20,0,0,0"/>
+                            <TextBlock Text="°C"
+                                   FontSize="13"
+                                   FontWeight="Black"
+                                   Padding="0,0,0,0"/>
                             <TextBlock Text="{Binding pressure}"
                                    FontSize="13"
                                    Padding="20,0,0,0"/>
                             <TextBlock Text="hPa"
                                    FontSize="13"
+                                   Padding="0,0,0,0"/>
+                            <TextBlock Text="Humidity: "
+                                   FontSize="13"
                                    Padding="20,0,0,0"/>
                             <TextBlock Text="{Binding humidity}"
                                    FontSize="13"
-                                   Padding="20,0,0,0"/>
+                                   Padding="2,0,0,0"/>
                             <TextBlock Text="%"
                                    FontSize="13"
-                                   Padding="6,0,0,0"/>
+                                   Padding="0,0,0,0"/>
                         </StackPanel>
                     </Grid>
                 </DataTemplate>

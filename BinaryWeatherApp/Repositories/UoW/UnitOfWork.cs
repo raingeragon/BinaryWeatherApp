@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using BinaryWeatherApp.Models;
 using BinaryWeatherApp.Entities;
+using System.Threading.Tasks;
 
 namespace BinaryWeatherApp.Repositories
 {
@@ -45,9 +46,9 @@ namespace BinaryWeatherApp.Repositories
 			}
 		}
 
-		public void Save()
+		public async Task Save()
 		{
-			db.SaveChanges();
+			await db.SaveChangesAsync();
 		}
 
 		private bool disposed = false;

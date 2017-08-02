@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using Ninject;
 using BinaryWeatherApp.Repositories;
+using System.Threading.Tasks;
 
 namespace BinaryWeatherApp.Controllers
 {
@@ -20,21 +21,25 @@ namespace BinaryWeatherApp.Controllers
 		{
 			weatherService = iws;
 			unitOfWork = iuow;
-			var towns = unitOfWork.Towns.GetAll();
-
-			ViewBag.Towns = towns;
+           
 		}
-		public ActionResult Index()
+		public async Task<ActionResult> Index()
 		{
-			return View();
+            var towns = await  unitOfWork.Towns.GetAllAsync();
+
+            ViewBag.Towns = towns;
+            return View();
 		}
 
 		[HttpPost]
-		public ActionResult Index(string city, int days)
+		public async Task<ActionResult> Index(string city, int days)
 		{
-			if (!string.IsNullOrWhiteSpace(city))
+            var towns = await unitOfWork.Towns.GetAllAsync();
+
+            ViewBag.Towns = towns;
+            if (!string.IsNullOrWhiteSpace(city))
 			{
-				Forecast forecast = weatherService.Get(city, days);
+				Forecast forecast = await weatherService.Get(city, days);
 				Request request = new Request
 				{
 					RequestTown = forecast.city,
@@ -43,7 +48,7 @@ namespace BinaryWeatherApp.Controllers
 					RequestImg = forecast.GetDailyList()[0].icon,
 					RequestTemp = forecast.GetDailyList()[0].day 
 				};
-				unitOfWork.Requests.Create(request);
+				await unitOfWork.Requests.CreateAsync(request);
 				return View(forecast);
 			}
 			return View();

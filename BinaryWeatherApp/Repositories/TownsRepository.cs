@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 
 namespace BinaryWeatherApp.Repositories
@@ -17,39 +18,39 @@ namespace BinaryWeatherApp.Repositories
 		{
 			db = weathercontext;
 		}
-		public List<Town> GetAll()
+		public async Task<List<Town>> GetAllAsync()
 		{
-			return db.Towns.ToList();
+			return await db.Towns.ToListAsync();
 		}
-		public Town GetById (int id)
+		public async Task<Town> GetByIdAsync (int id)
 		{
-			return db.Towns.Find(id);
+			return await db.Towns.FindAsync(id);
 		}
-		public void  Create (Town town)
+		public async Task  CreateAsync (Town town)
 		{
 			db.Towns.Add(town);
-			Save();
+			await SaveAsync();
 		}
-		public void Edit(Town item)
+		public async Task EditAsync(Town item)
 		{
 			db.Entry(item).State = EntityState.Modified;
-			Save();
+			await SaveAsync();
 		}
-		public void Delete (int id)
+		public async Task DeleteAsync (int id)
 		{
-			Town item = db.Towns.Find(id);
+			Town item = await db.Towns.FindAsync(id);
 			if (item != null)
 				db.Towns.Remove(item);
-			Save();
+			await SaveAsync();
 		}
-		public void DeleteAll()
+		public async Task DeleteAllAsync()
 		{
 			db.Towns.RemoveRange(db.Towns);
-			Save();
+			await SaveAsync();
 		}
-		public void Save()
+		public async Task SaveAsync()
 		{
-			db.SaveChanges();
+			await db.SaveChangesAsync();
 		}
 		public virtual void Dispose(bool disposing)
 		{

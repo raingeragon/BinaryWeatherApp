@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 
 namespace BinaryWeatherApp.ApiControllers
@@ -23,9 +24,9 @@ namespace BinaryWeatherApp.ApiControllers
 
 		//Get api/Requests
 		[HttpGet]
-		public List<Request> Get()
+		public async Task<List<Request>> Get()
 		{
-			return unitofWork.Requests.GetAll();
+			return await  unitofWork.Requests.GetAllAsync();
 		}
 	}
 }
