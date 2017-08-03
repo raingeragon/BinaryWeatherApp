@@ -20,21 +20,21 @@ namespace UWPBinaryWeatherAppClient.ViewModels
         {
             Towns = new ObservableCollection<TownsModel>();
             Update();
-            AddCommand = new RelayCommand(Add);
+            AddCommand = new RelayCommand(async()=> { await AddAsync(); });
             DeleteCommand = new RelayCommand(async()=> { await Delete(); });
         }
 
         void Update()
         {
             Towns.Clear();
-            var list = townsService.Get();
+            var list = townsService.GetAsync().Result;
             foreach (var n in list)
                 Towns.Add(n);
             MessengerInstance.Send(new ObservableCollection<TownsModel>());
         }
-        void Add()
+        async Task AddAsync()
         {
-            townsService.Add(townAdd);
+            await townsService.Add(townAdd);
             Update();
         }
         async Task Delete()

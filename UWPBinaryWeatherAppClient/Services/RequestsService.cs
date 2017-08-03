@@ -18,10 +18,10 @@ namespace UWPBinaryWeatherAppClient.Services
             ApiPath = "http://localhost:59524/api/";
             client = new HttpClient();
         }
-        public IEnumerable<RequestsModel> Get ()
+        public async Task<IEnumerable<RequestsModel>> GetAsync ()
         {
             var response = client.GetAsync($"{ApiPath}Requests").Result;
-            var result = response.Content.ReadAsStringAsync().Result;
+            var result = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<IEnumerable<RequestsModel>>(result);
         }
     }

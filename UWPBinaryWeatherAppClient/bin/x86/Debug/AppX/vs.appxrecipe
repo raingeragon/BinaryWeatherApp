@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Хоменко Илья\Documents\Visual Studio 2017\Projects\BinaryWeatherApp\UWPBinaryWeatherAppClient\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-02T18:52:28.106</Modified>
+      <Modified>2017-08-03T10:33:09.365</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Хоменко Илья\Documents\Visual Studio 2017\Projects\BinaryWeatherApp\UWPBinaryWeatherAppClient\bin\x86\Debug\UWPBinaryWeatherAppClient.exe">
       <PackagePath>entrypoint\UWPBinaryWeatherAppClient.exe</PackagePath>
-      <Modified>2017-08-02T18:52:27.462</Modified>
+      <Modified>2017-08-03T10:33:09.091</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Хоменко Илья\.nuget\packages\CommonServiceLocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
       <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
@@ -585,7 +585,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Хоменко Илья\Documents\Visual Studio 2017\Projects\BinaryWeatherApp\UWPBinaryWeatherAppClient\bin\x86\Debug\Core\UWPBinaryWeatherAppClient.exe">
       <PackagePath>UWPBinaryWeatherAppClient.exe</PackagePath>
-      <Modified>2017-08-02T18:52:28.102</Modified>
+      <Modified>2017-08-03T10:33:09.363</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

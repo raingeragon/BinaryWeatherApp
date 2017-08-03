@@ -19,14 +19,14 @@ namespace UWPBinaryWeatherAppClient.Services
             client = new HttpClient();
         }
 
-        public IEnumerable<TownsModel> Get()
+        public async Task<IEnumerable<TownsModel>> GetAsync()
         {
             var response = client.GetAsync($"{apiPath}Towns").Result;
-            var result = response.Content.ReadAsStringAsync().Result;
+            var result = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<IEnumerable<TownsModel>>(result);
         }
 
-        public async void Add(string name)
+        public async Task Add(string name)
         {
             await client.PostAsync($"{apiPath}Towns/?name={name}",null);
         }

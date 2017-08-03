@@ -23,7 +23,7 @@ namespace BinaryWeatherApp.Tests.UnitTest
 			_unitOfWork = new UnitOfWork();
 			_controller = new TownsController(_unitOfWork);
 
-			_repository.Setup(x => x.GetAll())
+			_repository.Setup(x => x.GetAllAsync().Result)
 				.Returns(new List<Town>
 				{
 					new Town{TownId = 1, TownName = "Kharkov"}

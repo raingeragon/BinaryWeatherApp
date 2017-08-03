@@ -27,7 +27,7 @@ namespace BinaryWeatherApp.Tests.UnitTests
 			_unitOfWork = new UnitOfWork();
 			_controller = new RequestsController(_unitOfWork);
 
-			_repository.Setup(x => x.GetAll())
+			_repository.Setup(x => x.GetAllAsync().Result)
 				.Returns(new List<Town>
 				{
 					new Town{TownId = 1, TownName = "Kharkov"}
@@ -45,7 +45,7 @@ namespace BinaryWeatherApp.Tests.UnitTests
 		public void Index_View_Contains_ICollection_Of_Requests()
 		{
 			//Act
-			var result = ((ViewResult)_controller.Index()).Model;
+			var result = ((ViewResult)_controller.Index().Result).Model;
 
 			//Assert
 			Assert.IsInstanceOf<ICollection<Request>>(result);

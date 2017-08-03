@@ -25,8 +25,9 @@ namespace UWPBinaryWeatherAppClient.ViewModels
         {
             var service = new RequestsService();
             Requests.Clear();
-            var list = service.Get().ToList();
+            var list = service.GetAsync().Result.ToList();
             list.Reverse();
+            list = list.Take(10).ToList();
 
             foreach (var x in list)
                 Requests.Add(x);

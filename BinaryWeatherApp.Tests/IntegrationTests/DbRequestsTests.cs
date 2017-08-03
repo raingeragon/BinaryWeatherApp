@@ -37,7 +37,7 @@ namespace BinaryWeatherApp.Tests.IntegrationTests
 		public void Controller_Index_Returns_Correct_Value()
 		{
 			//Arrange
-			unitOfWork.Requests.Create(new Request
+			unitOfWork.Requests.CreateAsync(new Request
 			{
 				RequestTown = "Kharkov",
 				RequestDays = 1,
@@ -45,7 +45,7 @@ namespace BinaryWeatherApp.Tests.IntegrationTests
 				RequestImg = "",
 				RequestTemp = 27.5
 			});
-			var list = controller.Index() as ViewResult;
+			var list = controller.Index().Result as ViewResult;
 			//Почему следующее сравнение выдает ошибку?
 			//Assert.AreEqual((list.Model as IEnumerable<Request>).FirstOrDefault(), context.Requests.FirstOrDefault());
 			Assert.AreEqual((list.Model as IEnumerable<Request>).Count(), context.Requests.Count());

@@ -22,7 +22,7 @@ namespace BinaryWeatherApp.Tests.UnitTest
 			var service = new WeatherService();
 
 			//Act
-			var result = service.Get(city, 1);
+			var result = service.Get(city, 1).Result;
 
 			//Assert
 			return result;

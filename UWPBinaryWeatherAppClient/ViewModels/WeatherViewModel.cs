@@ -33,7 +33,7 @@ namespace UWPBinaryWeatherAppClient.ViewModels
         {
             Towns.Clear();
             var townsService = new TownsService();
-            var townsList = townsService.Get();
+            var townsList = townsService.GetAsync().Result;
             foreach (var n in townsList)
                 Towns.Add(n.TownName);
         }

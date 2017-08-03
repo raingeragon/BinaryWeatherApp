@@ -20,7 +20,7 @@ namespace UWPBinaryWeatherAppClient.Services
         }
         public async Task<WeatherModel> GetForecast(string city, int days)
         {
-            var response = await client.GetAsync($"{apiPath}Weather/?city={city}&days={days}");
+            var response = client.GetAsync($"{apiPath}Weather/?city={city}&days={days}").Result;
             var result = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<WeatherModel>(result);
         }
