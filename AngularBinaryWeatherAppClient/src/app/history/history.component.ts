@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import {historyElem} from '../models/historyElem'
+import {HistoryElem} from '../models/historyElem'
 @Component({
   selector: 'app-history',
   templateUrl: './history.component.html',
   styleUrls: ['./history.component.css']
 })
 export class HistoryComponent implements OnInit {
-  private historyList: historyElem[];
+  private historyList: HistoryElem[];
   constructor() { }
 
   ngOnInit() {

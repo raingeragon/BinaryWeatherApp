@@ -10,7 +10,6 @@ import { Observable } from "rxjs/Observable";
 @Injectable()
 export class CitiesService
 {
-    cities: City[];
     apipath:string;
     http: Http;
   constructor(http: Http) {
