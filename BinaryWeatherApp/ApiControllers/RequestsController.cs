@@ -7,10 +7,12 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace BinaryWeatherApp.ApiControllers
 {
-	public class RequestsController : ApiController
+    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
+    public class RequestsController : ApiController
 	{
 		IUnitOfWork unitofWork;
 		public RequestsController()
